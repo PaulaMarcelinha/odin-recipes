@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'DancingScript';
+    src: url('Fonts/DancingScript/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.mtitle {
+    font-family: "DancingScript";
+    color:deeppink;
+}
+
+.caketitle {
+    font-family: "DancingScript";
+    color: black;
+}
+
+.minipic {
+    height: 100px;
+    width: 100px;
+}
+
+.threecakes {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recipebox {
+    width: calc(1/3 * 100% - 15px);
+    margin: 0 20px 20px 0;
+    border: 2px black solid;
+}
